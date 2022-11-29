@@ -32,7 +32,7 @@ Create an environment called my_env_3911 with the Python version 3.9.11
 As a good practice include the Python version to the name of your environment
 so you can easily remember it.
 ```
-pyenv virtual-env my_env_3911 3.9.11
+pyenv virtualenv 3.9.11 my_env_3911
 ```
 
 Running this command will create a file called .python-version inside my-project. This file has the name of the virtual environment you are using which is, in our case, my_env_3911. Then, every time you enter my-project, my_env_3911 will be activated for you.
@@ -110,7 +110,7 @@ Crie um ambiente chamado my_env_3911 com Python versão 3.9.11.
 Como boa prática, inclua a versão do Python ao nome do seu ambiente para que
 você possa lembrar dela facilmente.
 ```
-pyenv virtual-env my_env_3911 3.9.11
+pyenv virtualenv 3.9.11 my_env_3911
 ```
 
 Executar esse comando vai criar um arquivo chamado .python-version dentro de my-project. Esse arquivo tem o nome do ambiente virtual que você está usando que é, no nosso caso, my_env_3911. Assim, toda vez que você entrar em my-project, my_env_3911 vai ser ativado para você.
